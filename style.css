@@ -6,6 +6,10 @@ iframe{
     height: 100vh;
 }
 
-body::-webkit-scrollbar{
+body::-webkit-scrollbar, #frame-container::-webkit-scrollbar{
     display: none;
+}
+
+#frame-container{
+height: 100vh;
 }
